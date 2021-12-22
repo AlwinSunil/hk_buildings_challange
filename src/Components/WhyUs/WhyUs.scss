@@ -1,0 +1,57 @@
+.whyus {
+    padding: 4rem 6rem;
+    background-color: #faf9f7;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 4rem;
+        gap: 3.5rem;
+    }
+
+    &__col {
+        width: 100%;
+
+        &-icon {
+            background: var(--white);
+            border-radius: 0.1rem;
+            border-radius: 0.2rem;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px;
+            height: 5rem;
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            width: 5rem;
+
+            & img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        & h4 {
+            font-weight: 500;
+            color: var(--darkblue);
+        }
+
+        & p {
+            color: var(--grey);
+            line-height: 1.4rem;
+            margin-top: 0.4rem;
+            opacity: 0.95;
+        }
+    }
+
+    & h2 {
+        color: var(--darkblue);
+
+        &::after {
+            content: "";
+            background: var(--blue);
+            bottom: -3%;
+            height: 0.3rem;
+            left: 0%;
+            position: absolute;
+            width: 3.25rem;
+        }
+    }
+}

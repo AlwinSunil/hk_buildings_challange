@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 6rem;
+
+    &__logo {
+        margin-right: auto;
+        width: 10rem;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+
+        &-active {
+            color: var(--black) !important;
+
+            &::after {
+                background: var(--blue);
+                bottom: 24%;
+                content: "";
+                height: 0.3rem;
+                left: 28%;
+                position: absolute;
+                width: 1.5rem;
+            }
+        }
+
+        & li {
+            color: var(--grey);
+            cursor: pointer;
+            font-weight: 500;
+            margin: auto 0px;
+            padding: 1.5rem;
+
+            &:hover {
+                color: var(--black) !important;
+            }
+        }
+
+        & button {
+            background-color: white;
+            border: 2px solid var(--blue);
+            color: var(--blue);
+            font-weight: 500;
+            height: fit-content;
+            margin: auto;
+            margin-left: 1rem;
+            padding: 1rem 1.4rem;
+        }
+    }
+}
