@@ -1,0 +1,130 @@
+.contactus {
+    padding: 3rem 6rem;
+
+    &__container {
+        background-color: var(--darkblue);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__element {
+        background-color: var(--neutral);
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 16%;
+        width: 20%;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1.5rem;
+        background-color: var(--white);
+        gap: 1rem;
+
+        & h3 {
+            font-weight: 500;
+            color: var(--darkblue);
+        }
+
+        & input {
+            background-color: #f3f3f3;
+            border: 0px;
+            font-size: 1rem;
+            padding: 0.9rem 1.5rem;
+            transition: border 0s;
+
+            &:focus {
+                border: 1px solid var(--blue);
+            }
+        }
+
+        & button {
+            background-color: var(--blue);
+            border: 0px;
+            color: white;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin-top: 1.1rem;
+            padding: 0.9rem 1.5rem;
+            text-transform: uppercase;
+        }
+    }
+
+    &__col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3.5rem 5rem;
+
+        &-contact {
+            margin-top: 1rem;
+        }
+
+        &-icons {
+            margin-top: 1rem;
+
+            & img {
+                padding: 0.8rem;
+                height: 3rem;
+                width: 3rem;
+            }
+        }
+
+        & h2 {
+            color: var(--white);
+            margin-bottom: 2rem;
+
+            &::after {
+                content: "";
+                background: var(--blue);
+                bottom: -3%;
+                height: 0.3rem;
+                left: 0%;
+                position: absolute;
+                width: 3.25rem;
+            }
+        }
+
+        & p {
+            font-size: 1rem;
+            color: var(--white);
+            font-weight: 400;
+            opacity: 0.6;
+            padding: 0px 0.4rem;
+        }
+    }
+}
+
+.contactus__form-wrap {
+    position: relative;
+    width: 100%;
+}
+.contactus__form-wrap .inputText {
+    width: 100%;
+    outline: none;
+    border: none;
+    box-shadow: none !important;
+}
+
+.contactus__form-wrap .inputText:focus {
+    border: 1px solid var(--blue);
+}
+
+.contactus__form-wrap .floating-label {
+    position: absolute;
+    pointer-events: none;
+    color: var(--grey);
+    top: 2.2rem;
+    left: 1.25rem;
+    transition: 0.2s ease all;
+}
+
+.contactus__form-wrap input:focus ~ .floating-label,
+.contactus__form-wrap input:not(:focus):valid ~ .floating-label {
+    top: -0.25rem;
+    left: 0.6rem;
+    font-size: 1rem;
+    opacity: 1;
+}
