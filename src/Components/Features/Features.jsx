@@ -1,5 +1,5 @@
 import React from "react";
-import Interior from "/assets/help1.png";
+import Interior from "/assets/help1.webp";
 import Exterior from "/assets/help2.png";
 import InteriorOp from "/assets/help3.png";
 import Staircase from "/assets/help4.png";

@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "/assets/knowmore.png";
+import img1 from "/assets/knowmore.webp";
 import backward from "/assets/left.svg";
 import forward from "/assets/right.svg";
 import ".//Knowus.scss";

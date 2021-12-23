@@ -1,9 +1,9 @@
 import React from "react";
 import backward from "/assets/left.svg";
 import forward from "/assets/right.svg";
-import Rec1 from "/assets/recommend1.png";
-import Rec2 from "/assets/recommend2.png";
-import Rec3 from "/assets/recommend3.png";
+import Rec1 from "/assets/recommend1.webp";
+import Rec2 from "/assets/recommend2.webp";
+import Rec3 from "/assets/recommend3.webp";
 import Icon from "/assets/icon-arrow-right.png";
 import "./Recommend.scss";
 

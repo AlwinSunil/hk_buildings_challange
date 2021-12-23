@@ -16,22 +16,22 @@ function RecentWorks() {
             </div>
             <div className="recent__container">
                 <WorkCard
-                    img="/assets/recentwork1.png"
+                    img="/assets/recentwork1.webp"
                     place="Molestie vulpulate"
                     location="Paraguay"
                 />
                 <WorkCard
-                    img="/assets/recentwork2.png"
+                    img="/assets/recentwork2.webp"
                     place="Molestie vulpulate"
                     location="Paraguay"
                 />
                 <WorkCard
-                    img="/assets/recentwork3.png"
+                    img="/assets/recentwork3.webp"
                     place="Neque nunc lacus"
                     location="Jakarta"
                 />
                 <WorkCard
-                    img="/assets/recentwork4.png"
+                    img="/assets/recentwork4.webp"
                     place="Proin ultrices bibendum"
                     location="Havana"
                 />
