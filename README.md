@@ -12,4 +12,4 @@
 ## Deploy
 
 Deployed in **vercel**.<br/>
-[Link to the project](https://stock-watch-vitejs.vercel.app/)
+[Link to the project](http://hk-buildings-challange.vercel.app/)
